@@ -26,6 +26,25 @@
     .level3{
       background-color: orange;
     }
+
+    .divid > div.divid_in1 {
+      background: #4a4a4a;
+      font-size: 21px;
+      text-align: center;
+    }
+
+    .divid > div {
+      font-size: 31px;
+      background: #0066bb;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .divid_in2, .divid_in1 {
+      padding: 7px!important;
+    }
   </style>
   <!-- =======================================================
     Theme Name: Medilab
@@ -49,7 +68,7 @@
 				        <span class="icon-bar"></span>
 				      </button>
               <a class="navbar-brand" href="#">
-                <img src="img/logo.png" class="img-responsive" style="width: 140px; margin-top: -16px;">
+                <img src="img/logo1.png" class="img-responsive" style="width: 300px; margin-top: -16px;">
               </a>
             </div>
             <div class="collapse navbar-collapse navbar-right" id="myNavbar">
@@ -69,9 +88,37 @@
           <div class="col-md-8">
 <!--            <div id="chartdiv" style="background-color: #1616162e !important;"></div>-->
             <div class="row">
+              <div class="col-md-6" style="font-size: 1.0rem">
+                <h5 style="margin-bottom:15px; color: white">Surveillance Summary</h5>
+                <div style="color: black !important;">
+                  <table class="table table-condensed">
+                    <tbody>
+                    <tr>
+                      <td class="">Confirmed Cases</td>
+                      <td class="" style="text-align: right;">10</td>
+                    </tr>
+                    <tr>
+                      <td class="">Villivaru Quarantine</td>
+                      <td class="" style="text-align: right;">18</td>
+                    </tr>
+                    <tr>
+                      <td class="">Farukolhu Isolation</td>
+                      <td class="" style="text-align: right;">9</td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <br>
+                <div class="divid">
+                  <div class="divid_in1">24/7 TOLL FREE</div>
+                  <div class="divid_in2"><a href="tel:1676">
+                    <i class="icomoon-the7-font-the7-phone-04"></i>1676</a>
+                  </div>
+                </div>
+              </div>
               <div class="col-md-6">
-                <h3 style="margin-bottom:15px; color: white">Public Health Risk Alert Levels</h3>
-                <div style="color: #006dcc !important;">
+                <h5 style="margin-bottom:15px; color: white">Public Health Risk Alert Levels</h5>
+                <div style="color: black !important; font-size: 1.0rem">
                   <table class="table">
                     <tbody>
                     <tr>
@@ -101,28 +148,6 @@
                     </tr>
                     <tr>
                       <td style="text-align: center;">–</td>
-                    </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-
-              <div class="col-md-6">
-                <h3 style="margin-bottom:15px; color: white">Surveillance Summary</h3>
-                <div style="color: #4c4c4c !important;">
-                  <table class="table table-condensed">
-                    <tbody>
-                    <tr>
-                      <td class="">Confirmed Cases</td>
-                      <td class="" style="text-align: right;">10</td>
-                    </tr>
-                    <tr>
-                      <td class="">Villivaru Quarantine</td>
-                      <td class="" style="text-align: right;">18</td>
-                    </tr>
-                    <tr>
-                      <td class="">Farukolhu Isolation</td>
-                      <td class="" style="text-align: right;">9</td>
                     </tr>
                     </tbody>
                   </table>
@@ -174,9 +199,9 @@
                 <span class="fa fa-search form-control-feedback"></span>
                 <input type="text" class="form-control" placeholder="Search">
               </div>
-              <div class="form-group"> <!-- Date input -->
-                <button class="btn btn-primary " name="submit" type="submit" style="background-color: #2e678a !important; border: 1px solid #283C46; float: right !important; margin-bottom: 2rem !important;">Submit</button>
-              </div>
+<!--              <div class="form-group"> &lt;!&ndash; Date input &ndash;&gt;-->
+<!--                <button class="btn btn-primary " name="submit" type="submit" style="background-color: #2e678a !important; border: 1px solid #283C46; float: right !important; margin-bottom: 2rem !important;">Submit</button>-->
+<!--              </div>-->
             </form>
             <!--          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.</p>-->
           </div>
