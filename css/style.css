@@ -152,7 +152,7 @@ banner
   }
 }
 .bg-color{
-	background-color: #1f8bc5;
+    background-color: rgb(44, 68, 80);
 	min-height: 650px;
 }
 .banner-info{
@@ -630,3 +630,8 @@ footer
  .form_label {
     color: white;
  }
+
+
+.amcharts-chart-div > a {
+    display: none !important;
+}
